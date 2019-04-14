@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="month_name_array">
+		<item>@string/month_jan</item>
+		<item>@string/month_feb</item>
+		<item>@string/month_mar</item>
+		<item>@string/month_apr</item>
+		<item>@string/month_may</item>
+		<item>@string/month_jun</item>
+		<item>@string/month_july</item>
+		<item>@string/month_aug</item>
+		<item>@string/month_sep</item>
+		<item>@string/month_oct</item>
+		<item>@string/month_nov</item>
+		<item>@string/month_dec</item>
+	</string-array>
+
+
+	<string-array name="category_array">
+		<item>"Travel"</item>
+		<item>""Eating Out"</item>
+		<item>"Shopping"</item>
+		<item>"Rent"</item>
+		<item>"Clothes"</item>
+		<item>"Fuel"</item>
+		<item>"Entertainment"</item>
+		<item>"Sports"</item>
+		<item>"General"</item>
+	</string-array>
+</resources>

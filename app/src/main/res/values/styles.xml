@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="Black_Theme_NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_black</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_black</item>
+        <item name="colorAccent">@color/colorAccent_black</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Blue_Theme_NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/violet_theme_color</item>
+        <item name="colorPrimaryDark">@color/violet_primary_dark_theme_color</item>
+        <item name="colorAccent">@color/violet_light_color</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="custom_value_field">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:drawableBottom">@drawable/line_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/size_dp10</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:textColor">@color/edit_text_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="DashboardButtonCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:shadowColor">@color/shadow_color</item>
+    </style>
+
+    <style name="DashboardButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/label_size_small_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:textColor">@color/text_color</item>
+
+    </style>
+
+    <style name="expenseDetails_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/label_size_medium</item>
+    </style>
+
+</resources>

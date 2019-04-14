@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <import type="android.text.Html"/>
+        <import type="java.lang.String" />
+
+        <variable
+                name="model"
+                type="com.android.expensemanager.ui.categories.view.CategoriesListViewModel"/>
+    </data>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color">
+
+        <androidx.appcompat.widget.Toolbar
+                xmlns:fab="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:elevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimaryDark"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                fab:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <com.android.expensemanager.views.RubikRegularTextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="@dimen/letter_spacing_default"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/value_size_medium"
+                    android:visibility="gone"
+                    tools:targetApi="lollipop" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:background="@color/background_color"
+                android:isScrollContainer="false"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                    android:id="@+id/categories_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <!--<include layout="@layout/categories_list_item"/>-->
+                <!--<include layout="@layout/categories_list_item"/>-->
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_category_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/ic_plus_icon" />
+
+    </RelativeLayout>
+
+
+</layout>

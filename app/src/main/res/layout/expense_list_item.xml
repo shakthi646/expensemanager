@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/rounded_corners_white"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <com.android.expensemanager.views.RubikMediumTextView
+            android:id="@+id/exp_number"
+            style="@style/expenseDetails_label"
+            android:layout_width="wrap_content"
+            android:text="Exp-00017"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.android.expensemanager.views.RubikMediumTextView
+            android:id="@+id/category_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/label_size_11dp"
+            tools:text="Expense"
+            android:background="@drawable/rounded_corners_red"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="@dimen/size_dp10"
+            android:layout_marginEnd="@dimen/size_dp10"
+            android:inputType="textCapCharacters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.android.expensemanager.views.RubikRegularTextView
+            android:id="@+id/category_name"
+            style="@style/expenseDetails_label"
+            android:layout_marginTop="@dimen/size_dp10"
+            tools:text="Expense Category"
+            app:layout_constraintTop_toBottomOf="@+id/exp_number"
+            tools:ignore="MissingConstraints" />
+
+        <com.android.expensemanager.views.RubikRegularTextView
+            android:id="@+id/exp_date"
+            style="@style/expenseDetails_label"
+            android:layout_width="wrap_content"
+            android:text="12, Nov 2018"
+            android:layout_marginTop="@dimen/size_dp10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/category_name" />
+
+        <com.android.expensemanager.views.RubikMediumTextView
+            android:id="@+id/expense_amount"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/label_size_medium"
+            android:padding="@dimen/size_dp5"
+            android:layout_marginTop="@dimen/size_dp10"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Rs.5430"
+            android:layout_marginStart="@dimen/size_dp10"
+            android:layout_marginEnd="@dimen/size_dp10"
+            app:layout_constraintTop_toBottomOf="@+id/category_name"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+
+
+

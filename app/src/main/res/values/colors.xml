@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#394ab9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#387CF6</color>
+    <color name="colorLight">#e8f1f9</color>
+
+    <color name="dull_white">#F5F5F5</color>
+
+    <!--Black Theme-->
+    <color name="colorPrimary_black">#393e52</color>
+    <color name="colorPrimaryDark_black">#222838</color>
+    <color name="colorAccent_black">#393e52</color>
+
+    <color name="info.drawable.tint">#9d9d9d</color>
+
+    <!--Theme Red -->
+    <color name="red_theme_color">#DB294E</color>
+    <color name="red_primary_dark_theme_color">#a20026</color>
+    <color name="red_light_color">#fdf4f4</color>
+
+    <!--Violet Red -->
+    <color name="violet_theme_color">#4f4d96</color>
+    <color name="violet_primary_dark_theme_color">#464383</color>
+    <color name="violet_light_color">#8F88B9</color>
+
+    <!--Amber Red -->
+    <color name="amber_primary_dark_theme_color">#ba5a0e</color>
+
+    <color name="green_light_color">#edfffb</color>
+
+
+    <color name="background_color">#f2f5f8</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="background_blue">#ebf6fe</color>
+    <color name="bright_green">#3fc46c</color>
+    <color name="table_line_separator">#dedede</color>
+
+    <color name="yellow_button_background">#fab04d</color>
+
+    <color name="text_color">#36367b</color>
+    <color name="edit_text_color">#333</color>333
+    <color name="text_color_light">#5358ad</color>
+    <color name="blue_bg">#3091e6</color>
+    <color name="hint_color">#999</color>
+
+    <color name="notification_red">#e53a20</color>
+    <color name="settings_line_color">#efedf2</color>
+
+    <!-- Status Colors-->
+
+    <color name="status_submitted">#3191E7</color>
+    <color name="status_rejected">#FF4A64</color>
+    <color name="status_approved">#26A271</color>
+    <color name="status_recalled">#F5A22C</color>
+    <color name="status_draft">#716FA3</color>
+
+
+    <!--Dashboard Card Colors-->
+
+    <color name="blue_color_light">#5d75f8</color>
+    <color name="blue_color_dark">#2e48d6</color>
+    <color name="tax_card_color_light">#7952db</color>
+    <color name="tax_card_color_dark">#3123ae</color>
+    <color name="reimbursement_card_color_light">#39a660</color>
+    <color name="green_color_dark">#146f50</color>
+    <color name="epf_card_color_light">#ba6e35</color>
+    <color name="epf_card_color_dark">#8b4b2e</color>
+    <color name="green_color_light">#1196aa</color>
+    <color name="green_color_lite_dark">#135f8b</color>
+
+    <color name="payslip_orange">#ffca79</color>
+
+    <color name="graph_green">#6DC77F</color>
+    <color name="payslip_graph_orange">#F29F59</color>
+
+    <color name="payslip_card_option_color">#e7eef5</color>
+
+
+    <color name="shadow_color">#c7d0db</color>
+
+    <color name="blue_buttom_color">#287DEB</color>
+
+
+    <color name="dashboard_card_indicator_color">#c4d0da</color>
+
+    <color name="green_white_dash_color">#94bfad</color>
+    <color name="gray_white_dash_color">#bababa</color>
+
+    <color name="gray_line">#eaeaea</color>
+
+
+    <color name="transparent">#801196aa</color>
+
+    <color name="green_theme_color">#009688</color>
+    <color name="green_text">#33a78b</color>
+    <color name="blue_theme_color">#0799ee</color>
+    <color name="light_green">#E8F7F4</color>
+    <color name="not.selected">#DCDCDC</color>
+    <color name="gray">#CCC</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="green_primary_dark_theme_color">#00796B</color>
+    <color name="list.line">#d0d0d0</color>
+    <color name="white">#ffffff</color>
+    <color name="purple_theme_color">#4D4DD2</color>
+    <color name="red_label">#CD4040</color>
+    <color name="mandatory.field.color">#E72E37</color>
+    <color name="settings_root_bg_color">#f2f2f2</color>
+    <color name="privacy_settings_send_anonymous_bg">#f9f9f9</color>
+    <color name="divider_color">#1a000000</color>
+    <color name="settings_grey">#8b8b8b</color>
+    <color name="black">#000</color>
+    <color name="zf.light.gray">#A1A1A1</color>
+    <color name="zf.black.1">#ff000000</color>
+    <color name="graph_red">#CF6E5F</color>
+    <color name="zf.gray.1">#E5E4E2</color>
+    <color name="zf.blue.gray.1">#B0BEC5</color>
+    <color name="zf.light.green.1">#4CAF50</color>
+    <color name="black_theme_color">#1D2736</color>
+</resources>

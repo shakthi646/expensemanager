@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">expensemanager</string>
+    <string name="em_categories_list">Categories List</string>
+    <string name="em_create_category">Create Category</string>
+    <string name="em_category_name">Category Name *</string>
+    <string name="em_category_type">Category Type</string>
+    <string name="em_save_category">SAVE CATEGORY</string>
+    <string name="em_create_expense">Create Expense</string>
+    <string name="em_add_income">Add Income</string>
+    <string name="em_transaction_list">Transaction List</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+    <string
+            name="month_jan">January</string>
+    <string
+            name="month_feb">February</string>
+    <string
+            name="month_mar">March</string>
+    <string
+            name="month_apr">April</string>
+    <string
+            name="month_may">May</string>
+    <string
+            name="month_jun">June</string>
+    <string
+            name="month_july">July</string>
+    <string
+            name="month_aug">August</string>
+    <string
+            name="month_sep">September</string>
+    <string
+            name="month_oct">October</string>
+    <string
+            name="month_nov">November</string>
+    <string
+            name="month_dec">December</string>
+</resources>
